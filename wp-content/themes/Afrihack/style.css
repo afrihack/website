@@ -1,0 +1,103 @@
+/*
+ Theme Name:     Afrihack theme
+ Theme URI:      hack.africa
+ Description:    Theme for hack.africa
+ Author:         Ngunyi Kelvin Macharia
+ Author URI:     https://ngunyimacharia.co
+ Template:       Divi
+ Version:        3.0.98
+*/
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+@media screen and (min-width:960px){
+  .mec-event-countdown-style3 .mec-event-countdown {
+      right: -200px !important;
+  }
+}
+
+.mec-event-countdown-style3 .mec-event-date {
+  background: #2e294e;
+  font-size: 15px;
+}
+
+.mec-event-countdown-style3 .mec-event-date::after {
+  border-color: transparent transparent #2e294e transparent;
+}
+
+.mec-wrap .mec-totalcal-box {
+	display: none;
+}
+
+#custom-form form label{
+  color: #fff;
+}
+
+#custom-form form p{
+  padding-bottom:20px;
+}
+#custom-form form br{
+  display: none;
+}
+
+#custom-form form input,#custom-form form textarea{
+  display: block;
+  width:100%;
+  padding:10px;
+  border-radius: 10px;
+}
+
+#custom-form form input[type="submit"]{
+	position: relative;
+	padding: .5em 1em;
+	border: 2px solid;
+	-webkit-border-radius: 17px;
+	-moz-border-radius: 17px;
+	border-radius: 17px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.7em !important;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	transition: all .2s;
+  width: auto;
+  float: right;
+}
+
+#custom-form form input[type="submit"]:hover{
+	/* padding: .3em 2em .3em .7em; */
+	border: 2px solid transparent;
+	background-color: rgba(255,255,255,.2);
+  cursor: pointer;
+}
+
+footer{
+color:rgba(255,255,255,0.5);
+}
+
+footer .copyright{
+  margin-top: 6%;
+  color:rgba(255,255,255,0.5);
+  font-weight: 100;
+}
+
+#footer-widgets{
+  padding-top: 2% !important;
+}
+
+.et_pb_gutters3 .footer-widget {
+	margin-bottom: 2% !important;
+}
+
+.et_pb_gutters3.et_pb_footer_columns3 .footer-widget #custom_html-4 {
+	float:right;
+}
+
+.et_pb_gutters3.et_pb_footer_columns3 .footer-widget #custom_html-4 .sxc-follow-buttons {
+	text-align: center !important;
+}
